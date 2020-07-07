@@ -54,8 +54,8 @@ export function App() {
                 placeholder="Write text here..."
                 autoFocus
                 spellCheck
-                renderMark={this.renderMark}
-                onKeyDown={this.onKeyDown}
+                // renderMark={this.renderMark}
+                // onKeyDown={this.onKeyDown}
               />
             </>
           </CardContent>

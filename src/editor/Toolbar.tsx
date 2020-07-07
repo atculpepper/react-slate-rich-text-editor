@@ -79,7 +79,7 @@ export function Toolbar(props: ToolbarProps) {
         /* Formatting controls */
         <ButtonGroup variant="text" color="primary">
           <IconButton
-            editor={editor}
+            // editor={editor}
             onClick={() => {
               console.log("clicked bold");
             }}
@@ -118,7 +118,7 @@ export function Toolbar(props: ToolbarProps) {
           <IconButton
             className={s.button}
             size="small"
-            onClick={() => setLink("")}
+            // onClick={() => setLink("")}
           >
             <Link fontSize="small" />
           </IconButton>
@@ -128,9 +128,9 @@ export function Toolbar(props: ToolbarProps) {
         <form onSubmit={(x) => x.preventDefault()}>
           <Input
             className={s.input}
-            type="url"
+            // type="url"
             value={link}
-            onChange={(x) => setLink(x.target.value)}
+            // onChange={(x) => setLink(x.target.value)}
             endAdornment={
               <Close
                 className={s.close}
