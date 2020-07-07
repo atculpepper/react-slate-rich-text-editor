@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Makeswift front-end programming challenge.",
   "keywords": [],
+  "proxy": "http://localhost:5000",
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -21,7 +22,7 @@
     "react-scripts": "^3.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
